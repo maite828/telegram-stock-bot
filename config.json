@@ -1,0 +1,29 @@
+{
+  "bot_token": "TOKEN TELEGRAM",
+  "finnhub_api_key": "TOKEN FINNHUB",
+  "finnhub_url": "https://finnhub.io/api/v1/quote",
+  "user_id": CHAT ID TELEGRAM, 
+  "stocks": {
+    "TSLA": {
+      "target_price": 420.0,
+      "upper_price": 445.0
+    },
+    "NIO": {
+      "target_price": 3.0,
+      "upper_price": 8.0
+    },
+    "NVDA": {
+      "target_price": 120.0,
+      "upper_price": 140.0
+    },
+    "AMZN": {
+      "target_price": 215.0,
+      "upper_price": 230.0
+    },
+    "GOOGL": {
+      "target_price": 180.0,
+      "upper_price": 200.0
+    }
+  }
+}
+
