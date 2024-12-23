@@ -33,7 +33,7 @@ Este bot de Telegram te permite monitorear el precio de acciones en tiempo real 
    python3 -m venv myenv
    source myenv/bin/activate
    ```
- 2.1. **En caso de querer desactivar entorno virtual**:
+   **En caso de querer desactivar entorno virtual**:
    ```bash
    deactivate
    ```
