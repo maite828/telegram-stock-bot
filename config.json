@@ -2,7 +2,7 @@
   "bot_token": "TOKEN TELEGRAM",
   "finnhub_api_key": "TOKEN FINNHUB",
   "finnhub_url": "https://finnhub.io/api/v1/quote",
-  "user_id": CHAT ID TELEGRAM, 
+  "chat_id": 12345678, 
   "stocks": {
     "TSLA": {
       "target_price": 420.0,
