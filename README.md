@@ -68,7 +68,7 @@ Este bot de Telegram te permite monitorear el precio de acciones en tiempo real 
 
 Para iniciar el bot y probar:
 ```bash
-python tesla_bot_<api>.py
+python tesla_bot_finnhub.py
 ```
 
 Al ejecutarlo:
