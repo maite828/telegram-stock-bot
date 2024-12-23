@@ -102,7 +102,7 @@ Crea un archivo `config.json` con el siguiente formato:
 }
 ```
 
-## ¿Cómo Actualizar Configuraciones desde Telegram?
+## ¿Cómo actualizar configuraciones desde Telegram?
 
 ### 1. **Agregar una nueva acción**
 Comando:
