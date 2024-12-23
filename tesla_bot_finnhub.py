@@ -20,7 +20,7 @@ with open(CONFIG_FILE, 'r') as file:
 TOKEN = config['bot_token']
 FINNHUB_API_KEY = config['finnhub_api_key']
 FINNHUB_URL = config['finnhub_url']
-USER_ID = config['user_id']
+USER_ID = config['chat_id']
 
 # Inicializar configuraciones de acciones
 stocks = config['stocks']
