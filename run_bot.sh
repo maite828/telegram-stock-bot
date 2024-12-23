@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Cambia al directorio donde se encuentra el script y sus dependencias
+cd /Users/maytemati/maite828 || exit 1
+
 # Verifica si el proceso ya está corriendo
 if pgrep -f "tesla_bot_finnhub.py" > /dev/null
 then
@@ -11,5 +14,5 @@ fi
 source /Users/maytemati/maite828/myenv/bin/activate
 
 # Ejecuta el bot
-python /Users/maytemati/maite828/tesla_bot_finnhub.py
+python tesla_bot_finnhub.py
 
