@@ -138,7 +138,7 @@ Resultado:
 1. **Inicio del Bot**:
    Programa el inicio del bot a las 15:45 de lunes a viernes:
    ```bash
-   45 15 * * 1-5 /ruta/a/python /ruta/a/bot.py
+   15 15 * * 1-5 /ruta/a/python /ruta/a/bot.py
    ```
 
 2. **Detención del Bot**:
