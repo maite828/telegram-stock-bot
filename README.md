@@ -73,10 +73,10 @@ python tesla_bot_finnhub.py
 
 Al ejecutarlo:
 1. **Envía un resumen inicial**: Datos de todas las acciones configuradas, como:
-   - Precio de apertura.
    - Precio de cierre del día anterior.
+   - Precio de apertura.
    - Precio más alto y más bajo del día.
-   - Volumen actual.
+   - Último valor.
 2. **Monitorea precios en tiempo real**: Envía notificaciones cuando se cumplen las condiciones configuradas.
 
 ## Configuración de `config.json`
