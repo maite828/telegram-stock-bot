@@ -24,7 +24,7 @@ Este bot de Telegram te permite monitorear el precio de acciones en tiempo real 
 
 1. **Clona este repositorio**:
    ```bash
-   git clone https://github.com/tuusuario/telegram-stock-bot.git
+   git clone https://github.com/maite828/telegram-stock-bot.git
    cd telegram-stock-bot
    ```
 
@@ -32,6 +32,10 @@ Este bot de Telegram te permite monitorear el precio de acciones en tiempo real 
    ```bash
    python3 -m venv myenv
    source myenv/bin/activate
+   ```
+2.1 **En caso de querer desactivar entorno virtual**:
+   ```bash
+   deactivate
    ```
 
 3. **Instala las dependencias**:
@@ -41,7 +45,7 @@ Este bot de Telegram te permite monitorear el precio de acciones en tiempo real 
 
 4. **Configura el archivo `config.json`**:
    - Obtén un token de BotFather en Telegram.
-   - Obtén una API Key de Finnhub.
+   - Obtén una API Key de Finnhub en caso de decidir este script. 
    - Configura tus acciones iniciales para monitorear (consulta el ejemplo más abajo).
 
 ## Uso
@@ -62,7 +66,7 @@ Este bot de Telegram te permite monitorear el precio de acciones en tiempo real 
 
 ## Ejecución
 
-Para iniciar el bot:
+Para iniciar el bot y probar:
 ```bash
 python tesla_bot_<api>.py
 ```
