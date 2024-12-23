@@ -45,6 +45,7 @@ Este bot de Telegram te permite monitorear el precio de acciones en tiempo real 
 
 4. **Configura el archivo `config.json`**:
    - Obtén un token de BotFather en Telegram.
+   - Chat ID Telegram. 
    - Obtén una API Key de Finnhub en caso de decidir este script. 
    - Configura tus acciones iniciales para monitorear (consulta el ejemplo más abajo).
 
@@ -88,7 +89,7 @@ Crea un archivo `config.json` con el siguiente formato:
   "bot_token": "TU_TOKEN_DE_TELEGRAM",
   "finnhub_api_key": "TU_API_KEY_DE_FINNHUB",
   "finnhub_url": "https://finnhub.io/api/v1/quote",
-  "chat_id": CHAT ID TELEGRAM,
+  "chat_id": 123456789,
   "stocks": {
     "TSLA": {
       "target_price": 422.0,
