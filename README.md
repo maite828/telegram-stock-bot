@@ -64,7 +64,7 @@ Este bot de Telegram te permite monitorear el precio de acciones en tiempo real 
 
 Para iniciar el bot:
 ```bash
-python bot.py
+python tesla_bot_<api>.py
 ```
 
 Al ejecutarlo:
@@ -136,15 +136,15 @@ Resultado:
 
 ### Configura Cron Jobs
 1. **Inicio del Bot**:
-   Programa el inicio del bot a las 15:45 de lunes a viernes:
+   Programa el inicio del bot a las 14:15 de lunes a viernes:
    ```bash
-   15 15 * * 1-5 /ruta/a/python /ruta/a/bot.py
+   15 15 * * 1-5 /ruta/a/run_bot.sh
    ```
 
 2. **Detención del Bot**:
    Programa la detención del bot a las 22:01 de lunes a viernes:
    ```bash
-   1 22 * * 1-5 pkill -f bot.py
+   1 22 * * 1-5 /ruta/a/stop_bot.sh
    ```
 
 Para verificar los cron jobs configurados:
