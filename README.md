@@ -138,6 +138,11 @@ Resultado:
 - Un mensaje detallado con todas las acciones configuradas.
 
 ## Automatización del Bot
+   ```bash
+   chmod +x /ruta/a/clean_logs.sh
+   chmod +x /ruta/a/run_bot.sh
+   chmod +x /ruta/a/stop_bot.sh
+   ```
 
 ### Configura Cron Jobs
 1. **Inicio del Bot**:
