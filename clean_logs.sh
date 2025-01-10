@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOG_DIR="/var/services/homes/maite828/telegram_stock_bot"
+LOG_DIR="/Users/maite828/tesla_stock"
 LOG_FILE="$LOG_DIR/bot.log"
 
 # 1) Rotar el log actual
