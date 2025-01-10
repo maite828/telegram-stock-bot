@@ -156,6 +156,12 @@ Resultado:
    ```bash
    1 22 * * 1-5 /ruta/a/stop_bot.sh
    ```
+   
+3. **Limpiar logs**:
+   Programa la dlimpieza de logs a las 23:59 de lunes a viernes:
+   ```bash
+   59 23 * * 1-5 /ruta/a/clean_logs.sh
+   ```
 
 Para verificar los cron jobs configurados:
 ```bash
