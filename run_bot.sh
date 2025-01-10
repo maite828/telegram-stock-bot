@@ -13,6 +13,6 @@ fi
 # Activa el entorno virtual
 source /Users/maite828/myenv/bin/activate
 
-# Ejecuta el bot
-python tesla_bot_finnhub.py
+# Ejecuta el bot en segundo plano con "nohup" si quieres soltar la terminal
+nohup python tesla_bot_finnhub.py > bot.log 2>&1 &
 
